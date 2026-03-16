@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+.gradle/
+build/
+out/
+DerivedData/
+xcuserdata/
+*.iml
+*.xcworkspace
+*.xcodeproj/xcuserdata/
+local.properties
+
