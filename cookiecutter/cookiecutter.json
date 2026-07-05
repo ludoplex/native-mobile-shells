@@ -1,0 +1,15 @@
+{
+  "client_name": "Example Client",
+  "app_slug": "example-client",
+  "app_id": "com.example.frontdoor.{{ cookiecutter.app_slug.replace('-', '') }}",
+  "namespace": "com.jetbrains.kmpapp",
+  "primary_color": "#1D9E75",
+  "vertical": ["lodging", "qsr", "fnb", "golf", "auto", "retail", "seniorcare", "entertainment"],
+  "web_surface_base": "https://{{ cookiecutter.app_slug }}.example.com",
+  "features": "book,info,wifi,loyalty",
+  "default_tier": ["TIER_2", "TIER_1", "TIER_3"],
+  "__prompts__": {
+    "vertical": "Client vertical (look up default features + resourceType in ../vertical-matrix.csv)",
+    "features": "CSV of doorways: book,order,pay,loyalty,info,wifi (default per the vertical row)"
+  }
+}

@@ -1,0 +1,9 @@
+vertical,resourceType,book,order,pay,loyalty,info,wifi,push,default_tier,web_surface_base
+lodging,room,1,0,1,1,1,1,1,TIER_2,https://{app_slug}.example.com
+qsr,none,0,1,1,1,1,1,1,TIER_2,https://{app_slug}.example.com
+fnb,table,1,1,1,1,1,1,1,TIER_2,https://{app_slug}.example.com
+golf,teeTime,1,1,1,1,1,1,1,TIER_2,https://{app_slug}.example.com
+auto,serviceSlot,1,0,1,1,1,0,1,TIER_1,https://{app_slug}.example.com
+retail,none,0,1,1,1,1,0,0,TIER_1,https://{app_slug}.example.com
+seniorcare,none,0,0,0,0,1,0,1,TIER_1,https://{app_slug}.example.com
+entertainment,table,1,1,1,1,1,1,1,TIER_2,https://{app_slug}.example.com
