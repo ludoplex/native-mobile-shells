@@ -2,6 +2,13 @@
 
 Native-first mobile starter shells for a shared C engine, with Kotlin Multiplatform kept as an optional later step instead of the initial foundation.
 
+> **Two tracks in this repo (2026-07-04).** The prose below describes the **native-first** shell approach.
+> A second, working track lives in **`cookiecutter/`**: a KMP per-client stamper (folded in from the
+> former `cookiecutter-frontdoor`) that the existing MHI mobile apps derive from. Invoke with
+> `cookiecutter --no-input cookiecutter/ client_name=… app_slug=… vertical=… features=… default_tier=…`;
+> see `cookiecutter/README.md` and `cookiecutter/MIGRATION.md` (5-app context map). The two tracks are
+> not yet reconciled — native-first is the stated direction; the KMP cookiecutter reflects the apps as they exist today.
+
 ## Default Recommendation
 
 For the first usable version of this repo, the default pairing is:
